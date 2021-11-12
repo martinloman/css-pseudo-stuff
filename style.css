@@ -1,0 +1,51 @@
+
+
+
+ul li:nth-child(odd) {
+  background-color:yellow ;
+} 
+
+ul li:nth-child(odd):not(:first-child):hover {
+  background-color:blue ;
+} 
+
+p::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 3em;
+}
+
+ul li::after {
+  content: "😎";
+}
+
+/* ul li:first-child {
+  color: green;
+}
+
+ul li:last-child {
+  color: blue;
+}
+
+ul li:nth-child(3) {
+  color: red;
+} */
+/*
+p::first-line {
+  color: blue;
+}
+p::first-letter {
+  font-size: 3em;
+}
+ul li:nth-child(odd) {
+  color: red;
+}
+ul li:nth-child(odd) {
+  color: red;
+}
+ul li:nth-child(even) {
+  color: green;
+}
+*/
