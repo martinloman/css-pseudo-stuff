@@ -1,8 +1,8 @@
 
 
 
-ul li:nth-child(odd) {
-  background-color:yellow ;
+ul li:nth-child(2) {
+  background-color:red ;
 } 
 
 ul li:nth-child(odd):not(:first-child):hover {
