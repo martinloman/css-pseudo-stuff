@@ -1,13 +1,31 @@
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.hover-this {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  transition: all 100ms;
+}
 
+.hover-this:hover {
+  background-color: black;
+  border-radius: 10px;
+}
+
+input[type="text"]:focus {
+  padding: 40px;
+}
 
 ul li:nth-child(2) {
-  background-color:red ;
-} 
+  background-color: red;
+}
 
 ul li:nth-child(odd):not(:first-child):hover {
-  background-color:blue ;
-} 
+  background-color: blue;
+}
 
 p::first-line {
   color: blue;
@@ -17,7 +35,7 @@ p::first-letter {
   font-size: 3em;
 }
 
-ul li::after {
+ul li:hover::before {
   content: "😎";
 }
 
